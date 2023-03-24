@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <title>Cifrario di Vigenère</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <h1>Cifrario di Vigenère</h1>
+    <label for="input-text">Testo da codificare/decodificare:</label>
+    <input type="text" id="input-text" name="input-text"><br><br>
+    <label for="key">Chiave di cifratura:</label>
+    <input type="text" id="key" name="key"><br><br>
+    <button id="encode-button">Codifica</button>
+    <button id="decode-button">Decodifica</button><br><br>
+    <label for="output-text">Testo risultante:</label>
+    <textarea id="output-text" rows="4" cols="50" readonly></textarea>
+    <script src="app.js"></script>
+  </body>
+</html>
