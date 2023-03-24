@@ -1,2 +1,1 @@
-# vigenere-chatgpt
- an experiment for a simple Javascript app
+This is a simple experiment of a simple JavaScript app created using ChatGPT. I made it with my daughter to help her understand a few things about generative AI and cryptographic systems that she's studying in school right now.
